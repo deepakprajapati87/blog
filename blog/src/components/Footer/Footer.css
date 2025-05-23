@@ -1,0 +1,85 @@
+
+.uselink{
+color: #242424;;
+}
+.uselink ul{
+     list-style-type: none;
+    padding-left: 0px;
+}
+.uselink ul li{
+    margin-bottom: 1rem;
+    line-height: 30px;
+    /* margin-left: -30px; */
+}
+.uselink ul li a{
+    text-decoration: none;
+    color: #242424;
+
+}
+ .uselink .sub-form{
+    position: relative;
+ }
+ .uselink .sub-form .form-control{
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: #f5f8f9;
+ }
+ input[type="text"] {
+    box-shadow: none;
+    height: 45px;
+    outline: none;
+    font-size: 14px;
+}
+.uselink .sub-form a{
+    padding: 10px 25px;
+    font-size: 12px;
+    background: #f75757;
+    color: #fff;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.uselink .navbar-brand{
+    font-weight: 600;
+    color: #242424;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    
+}
+.uselink .navbar-brand span{
+    color: red;
+}
+
+.uselink p a{
+    font-weight: 600;
+    color: #242424;
+    text-decoration: none;
+ 
+}
+.uselink span a{
+    font-size: 20px;
+    color:#f75757;
+    font-weight: 600;
+    text-decoration: none;
+}
+footer{
+    padding-bottom: 10px;
+   
+}
+.copyright span{
+    color: #f75757;
+}
+.copyright a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #242424;
+}
+.footer-socials a{
+    text-decoration: none;
+    color: #242424;
+}
+.footer-socials  li{
+    padding-left: 10px;
+}
+#copyright{
+   height: 0px;
+}

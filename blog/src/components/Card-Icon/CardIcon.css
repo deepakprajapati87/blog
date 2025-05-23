@@ -1,0 +1,22 @@
+
+.card-icon{
+    margin-top: 55px;
+}
+
+.card-icon svg{
+    font-size: 60px;
+    line-height: 60px;
+    color: #f75757;
+}
+.card-icon h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #242424;
+    font-size: 1.3rem;
+}
+.card-icon p{
+ 
+        line-height: 30px;
+   
+}

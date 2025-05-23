@@ -1,0 +1,6 @@
+.text-span span{
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,20 @@
+
+.buttonAll{
+    background-color: #f75757;
+ transition: background-color 0.2s ease;; 
+ padding: 13px 25px 13px 25px; 
+ width: 140px;
+ border-radius: 50px; 
+}
+.buttonAll:hover{
+    background-color: #f75757;
+}
+.buttonAll a{
+    text-decoration: none;
+    color: white;
+
+    }
+    .buttonAll i{
+        color: white;
+    }
+   

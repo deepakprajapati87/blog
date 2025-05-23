@@ -1,0 +1,35 @@
+.top-bar{
+   
+    background-color: #222328;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.top-bar .top-text{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.top-bar .top-text .scoial-media{
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    color: #919194;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.top-bar .top-text .scoial-media a{
+    padding: 16px;
+    font-size: 16px;
+}
+
+.top-bar .top-text .contact-top{
+   
+    color:#919194;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.top-bar .top-text .contact-top a{
+    padding: 16px;
+    font-size: 16px;
+}

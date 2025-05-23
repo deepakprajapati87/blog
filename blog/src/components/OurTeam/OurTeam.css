@@ -1,0 +1,119 @@
+/* .image-overlay {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
+  
+  .image-overlay img {
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  }
+  
+  /* .image-overlay:hover img {
+    transform: scale(1.1);
+  } */
+  
+  /* .image-overlay:hover .img {
+    opacity: 0.3;
+  }
+  
+  .image-overlay:hover .overlay {
+    opacity: 1;
+  }
+  .overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .image-overlay:hover .overlay {
+    opacity: 1;
+  }
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }  */
+
+  .position-relative {
+    position: relative !important;
+}
+.team-img-hover {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.6);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.team-img-hover li a {
+    display: inline-block;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
+  .team-item:hover .team-img-hover {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+  .team-img-hover .team-social li a.facebook {
+    background: #6666cc;
+    color: #fff;
+}
+.team-img-hover .team-social li a.twitter {
+    background: #3399cc;
+    color: #fff;
+}
+.team-img-hover .team-social li a.instagram {
+    background: #cc66cc;
+    color: #fff;
+}
+.team-img-hover .team-social li a.linkedin {
+    background: #3399cc;
+    color: #fff;
+}

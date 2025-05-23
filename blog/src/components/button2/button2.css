@@ -1,0 +1,23 @@
+.btn-trasp a{
+    background-color:transparent;
+    transition: background-color 0.2s ease;; 
+    padding: 10px 19px;
+font-size: 12px;
+    /* width: 140px; */
+    border-radius: 50px; 
+    
+    /* border: 2px solid #f75757; */
+background: transparent;
+}
+/* .btn-trasp a:hover{
+    background-color: #f75757 !important;
+} */
+.btn-trasp a{
+    text-decoration: none;
+    color: white;
+
+    }
+    .btn-trasp{
+        margin-top: 55px;
+        margin-left: 19px;
+    }

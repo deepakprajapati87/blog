@@ -1,0 +1,13 @@
+.missionbox .text-md{
+    font-size: 2.25rem;
+    color: #f75757;
+}
+.missionbox h3{
+    font-weight: 600;
+    color: #242424;
+}
+.missionbox p{
+    text-align: justify;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.65);
+}

@@ -1,0 +1,17 @@
+.slider-container .paraStayle{
+  font-size: 20px;
+  line-height: 38px;
+  color: #242424;
+  margin-bottom: 30px;
+  font-style: italic;
+ width: 500px;
+  text-align: justify;
+}
+
+.slider-container .paraStayle span svg{
+  font-size: 40px;
+ color: #f75757;
+}
+.slider-container{
+  padding: 70px 0;
+}

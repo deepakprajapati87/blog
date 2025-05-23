@@ -1,0 +1,41 @@
+.news img{
+    width: 100%;
+}
+.news1{
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+}
+.news1 img{
+    /* margin-bottom: 25px; */
+    border-radius: 7px;
+    
+}
+.news{
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+}
+.news1 a{
+text-decoration: none;
+color: rgba(255, 255, 255, .5);
+
+
+}
+.news1 a span{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.news1 h3 {
+    margin-top: 20px !important;
+}
+.news1 h3 a{
+    color: white !important;
+   
+}
+.news-text{
+    margin-left: 20px;
+}
+.news a{
+    background-color: transparent !important;
+}

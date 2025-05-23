@@ -1,0 +1,23 @@
+.all-banner{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.all-banner .breadcrumb{
+    justify-content: center;
+}
+.all-banner .breadcrumb a{
+
+    color: white;
+
+}
+.all-banner .breadcrumb li{
+        color: rgba(255, 255, 255, .5) !important;
+}
+.all-banner span{
+    color: white;
+}
+.all-banner h1{
+    color: white;
+    font-size: 62px;
+}

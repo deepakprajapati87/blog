@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+/* start home page */
+
+.banner{
+    background: url(../../public/home-1.jpg);
+    background-size: cover;
+    /* background-position: 10% 0%; */
+    padding: 200px 0 280px 0;
+    position: relative;
+}
+.banner:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: #000;
+}
+.banner .banner-text{
+    
+    position: relative;
+    z-index: 1 !important; 
+}
+.banner-text h1{ 
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.business-provide{
+    padding: 100px 0;
+}
+
+/* start We are dynamic team of creative people */
+
+.section {
+    padding: 100px 0;
+
+}
+.section-1{
+    margin-top: -40px;
+}
+.position-relative{
+    position: relative !important;
+}
+.bg-about {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 45%;
+    min-height: 650px;
+    background: url(../../public/home-8.jpg) no-repeat;
+    background-size: cover;
+}
+
+.dynamic-team .btn-right{
+   margin-left: 40px;
+}
+
+/* end We are dynamic team of creative people */
+
+/* Start Entrust Your Project to Our Best Team of Professionals */
+
+.cta{
+    background: url(../../public/home-3.jpg) fixed 50% 50%;
+    background-size: cover;
+    padding: 120px 0px;
+    position: relative;
+    margin-top:40px;
+}
+
+.cta::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: #000;
+}
+#professionals{
+position: relative;
+z-index: 1;
+}
+/* End Entrust Your Project to Our Best Team of Professionals */
+
+/* start news */
+
+.bg-2{
+    background: url(../../public/home-5.jpg);
+    background-size: cover;
+    padding: 120px 0px;
+}
+.latest-blog{
+    position: relative;
+    /* padding-bottom: 150px; */
+}
+
+.latest-blog:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+.bg-zindex{
+    position: relative;
+    z-index: 1;
+}
+
+
+/* end news */
+
+/* start professional */
+
+#bg-professional{
+    background-color: #f5f8f9;
+    padding: 20px;
+    margin-top: -60px;
+    position: relative;
+    z-index: 1;
+}
+.right-professionals{
+    display: flex
+;
+    align-items: baseline;
+    justify-content: end;
+}
+/* end professional */
+
+/* *************************************************************************************
+************************************************************************************* */
+
+/* start about page */
+
+/* *************************************************************************************
+************************************************************************************* */
+
+/* start about banner */
+
+.page-title {
+    background: url(../../public/aboutbanner.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+ 
+}
+.page-title:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: #000;
+}
+.about-right img{
+    width: 100%;
+}
+/* end about banner */
+
+/*  start about counter */
+
+.bg-counter{
+    background: url(../../public/counter.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 80px;
+}
+.bg-counter:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+.couter-box2{
+    color: white;
+}
+/* end about counter */
+
+.bg-gray{
+    background: #f5f8f9;
+}
+
+/* *************************************************************************************
+************************************************************************************* */
+
+/* start services page */
+
+/* *************************************************************************************
+************************************************************************************* */
+
+
+
+    .cta-block {
+        background: url('../../public/everybusiness.jpg') no-repeat;
+          background-size: auto;
+        background-size: cover;
+        position: relative;
+      }
+      .cta-block::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+      }
+      .outer-div{
+        position: relative;
+        z-index: 1;
+      }
+      .right-professionals{
+        position: relative;
+        z-index: 1;
+      }
+      .right-professionals {
+        position: relative;
+        z-index: 1;
+        margin-top: 39px;
+    }

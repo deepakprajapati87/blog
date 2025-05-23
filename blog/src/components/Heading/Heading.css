@@ -1,0 +1,22 @@
+.heading-all .title-span{
+    color: #f75757;
+    font-weight: 600;
+}
+
+.heading-1{
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+.heading-all p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.heading-all h3{
+    color: #f75757;
+}
+.heading-all h3 span{
+    font-weight: 600;
+    color: #242424;
+}

@@ -1,0 +1,20 @@
+.about-content {
+  margin-top: 40px;
+
+}
+.about-content svg{
+    font-size: 30px;
+}
+.about-content h4{
+    margin-bottom: 20px;
+}
+.about-content p{
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: rgba(0,0,0,0.6);
+  }
+  .about-content span svg{
+    opacity: 0.5;
+    font-size: 50px;
+
+  }
